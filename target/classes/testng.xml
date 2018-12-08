@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="FREE CRM Application Test Automation Test Suit" verbose="1" >
+
+<listeners>
+		<listener class-name="com.crm.qa.extendReportListener.ExtentReporterNG" />
+</listeners>
+
+  <test name="Free CRM APP Test Cases" >
+    <classes>
+       <class name="com.crm.qa.testcases.ContactsPageTest" />
+       <class name="com.crm.qa.testcases.HomePageTest" />
+       <class name="com.crm.qa.testcases.LoginPageTest" />
+    </classes>
+  </test>
+</suite>
